@@ -3,7 +3,7 @@
 Trabalho realizado para disciplina de Estrutura de dados 2, o intuito da atividade é trabalhar com grafos  através de aeroportos, onde cada aeroporto é uma 
 vértice e cada rota é uma aresta.
 
-##TAD
+## TAD
 
 A implementação foi baseada nos algorítimos do livro, projeto de algoritmos do professor Nivio Ziviani , versão Java/C++.
 As classes que possuem os algoritimos de FPHeapMinIndireto e Dijkstra, foram totalmente baseadas no livro, já a classe de grafos, foi totalmente baseada
@@ -31,7 +31,7 @@ Classes:
 A implementação tera apenas informações de funcionalidades criadas, não tera explicação nem
 informações dos algorítimos baseados no livro do Nivio.
 
-##2 IMPLEMENTAÇÃO
+## 2 IMPLEMENTAÇÃO
 
 ###  Rotas:
 
@@ -49,11 +49,13 @@ A classe voo possui a estrutura para salvar as informações dos voos, ou seja, 
 vooDiretoSemPausa(ArrayList<Voo> infVoo, int aero), que é um método para pesquisar quais são os voos sem parada de determinado aeroporto
 
 ### Aeroporto:
+  
 A classe aeroporto, contem os dados em relação aos aeroportos, ela possui uma estrutura para salvar os dados dos aeroportos do arquivo, ela possui o metodo
 imprimirInformacoesAeroporto(ArrayList<Aeroporto> infAeroporto), que retorna uma lista de todos os aeroportos com numero e nome referente ao aeroporto. A classe também possui o método imprimirInformacoesVoo(ArrayList<Voo> infVoo) que
 retorna uma lista de todos os voos com numero e nome referente ao aeroporto.
 
-### Main
+### Main:
+  
 O main contem toda a logica do programa, contem um menu que chama as outras funcionalidades. No main criamos todos os objetos das classes que iremos usar. O main possui um método que é para chamar o algorítimo de Dijkstra, esse método é para
 inserir dois números e imprimir o caminho dele, ele sempre cria uma arvore com o primeiro numero recebido como raiz.
 
